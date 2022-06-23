@@ -1,7 +1,7 @@
 """
     Simple Streamlit webserver application for serving developed classification
 	models.
-    Author: Explore Data Science Academy.
+    Author: Stella
     Note:
     ---------------------------------------------------------------------
     Please follow the instructions provided within the README.md file
