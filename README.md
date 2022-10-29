@@ -35,25 +35,28 @@ Variable definitions
 - tweetid: Twitter unique id
 
 ### Exploratory Data Analysis
+Here are some analysis carried out during the project and the insiht gotten from it. \
 ![](images/b.png) \
 Interpretation \
 The above plot comfirms that: 
-- 1296 tweets do not believe in man-made climate change -1
+- 1296 tweets do not believe in man-made climate change Anti
 
-- 2353 tweets neither supports nor refutes the belief of man-made climate change 0
+- 2353 tweets neither supports nor refutes the belief of man-made climate change Neutral
 
-- 8530 Pro: the tweet supports the belief of man-made climate change 1
+- 8530 Pro: the tweet supports the belief of man-made climate change Pro
 
-- 3640 News: the tweet links to factual news about climate change 2
+- 3640 News: the tweet links to factual news about climate change news
  Inclusion , The highest proportion of the tweets supports the belief of man-made climate change
 
-![](images/c.png) 
-![](images/d.png)
-![](images/e.png) 
-![](images/f.png)
-![](images/h.png)
-![](images/i.png)
-Key Insights from EDA
+![](images/c.PNG)![](images/d.PNG)
+![](images/e.PNG)![](images/f.PNG)
+![](images/h.PNG)![](images/i.PNG) \
+Important Takeaways:
+Words like climate change and global warming that appear in all categories. They are general words that are associated with conversations about climate change.
+The removal of words that appear in all categories and stopwords is likely to have no effect on the performance of the classification model.
+There is a need to reduce the categories in sentiment feature because the goal is to define whethere there is a positive sentiment or not. 
+
+*key Insights from EDA*
 - The tweets contain punctuation marks and web urls.
 - The tweet text is in mixed case version i.e. both lower and uppercase.
 - The dataset contains three columns (sentiments, message and tweetid)
