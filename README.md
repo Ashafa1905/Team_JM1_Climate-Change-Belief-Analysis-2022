@@ -18,7 +18,6 @@ TEAM JM1 Consultancy has been tasked with creation of a Sentiment Analysis model
 ### Brief description of the data
 The dataset aggregates tweets pertaining to climate change collected between Apr 27, 2015 and Feb 21, 2018. In total, 43943 tweets were collected. Each tweet is labelled as one of the following classes: \
 Class Description 
-
 - 2 News: the tweet links to factual news about climate change
 
 - 1 Pro: the tweet supports the belief of man-made climate change
@@ -36,8 +35,24 @@ Variable definitions
 - tweetid: Twitter unique id
 
 ### Exploratory Data Analysis
-![](images/a.png)
+![](images/b.png) \
+Interpretation \
+The above plot comfirms that: 
+- 1296 tweets do not believe in man-made climate change -1
 
+- 2353 tweets neither supports nor refutes the belief of man-made climate change 0
+
+- 8530 Pro: the tweet supports the belief of man-made climate change 1
+
+- 3640 News: the tweet links to factual news about climate change 2
+ Inclusion , The highest proportion of the tweets supports the belief of man-made climate change
+
+![](images/c.png) 
+![](images/d.png)
+![](images/e.png) 
+![](images/f.png)
+![](images/h.png)
+![](images/i.png)
 Key Insights from EDA
 - The tweets contain punctuation marks and web urls.
 - The tweet text is in mixed case version i.e. both lower and uppercase.
